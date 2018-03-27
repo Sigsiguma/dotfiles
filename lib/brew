@@ -47,7 +47,7 @@ run_brew() {
 
         local installed=`brew list`
 
-        for index in${!desired_formulae[*]}
+        for index in ${!desired_formulae[*]}
         do
             local formula=`echo ${desired_formulae[$index]} | cut -d' ' -f 1`
             if [[ -z `echo "${installed}" | grep "^${formula}$"` ]]; then

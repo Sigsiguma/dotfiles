@@ -2,6 +2,7 @@
 
 set -eu
 OSTYPE="$(uname -s)"
+echo $OSTYPE
 DOT_DIRECTORY="${HOME}/dotfiles"
 REMOTE_URL="git@github.com:Sigsiguma/dotfiles.git"
 
@@ -39,7 +40,7 @@ link_files() {
 
 initialize() {
 	case ${OSTYPE} in
-		darwin*)
+		Darwin*)
 			run_brew
 			;;
 		*)

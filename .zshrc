@@ -15,6 +15,11 @@ if [[ -f ~/.zplug/init.zsh ]]; then
     zplug load
 fi
 
+# setting common environment path
+export PATH=$HOME/.anyenv/bin:$PATH
+eval "$(anyenv init - --no-rehash)"
+
+
 if [[ -f ~/.zshrc.local ]]; then
     source ~/.zshrc.local
 fi
