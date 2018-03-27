@@ -1,0 +1,24 @@
+[core]
+    excludesfile = ${HOME}/.gitignore_global
+    editor = vim
+[user]
+    name = siguma
+    email = you8jun@gmail.com
+
+[color]
+    diff = auto
+    status = auto
+    branch = auto
+    ui = true
+
+[alias]
+    graph = "log --graph --pretty='format:%h %Cgreen%an%Creset | %s %Cred%d%Creset'"
+    	ci = commit -m
+	st = status
+	df = diff
+	co = checkout
+	br = branch
+	delete-merged-branches = !git branch --merged | grep -v \\* | xargs -I % git branch -d %
+
+[ghq]
+    root = ~/src
