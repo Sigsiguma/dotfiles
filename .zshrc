@@ -1,5 +1,8 @@
+# Common Setting
 autoload -Uz compinit
 compinit
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
+setopt prompt_subst
 
 if [[ -f ~/.zplug/init.zsh ]]; then
     export ZPLUG_LOADFILE=~/.zsh/zplug.zsh
@@ -19,7 +22,7 @@ fi
 export PATH=$HOME/.anyenv/bin:$PATH
 eval "$(anyenv init - --no-rehash)"
 
-# load zsh settings
+# load common zsh aliases
 source ~/.zsh/.zsh_aliases
 
 
