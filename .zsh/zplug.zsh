@@ -1,10 +1,11 @@
-zplug "wbinglee/zsh-wakatime"
-
 # syntax
 zplug "chrissicool/zsh-256color"
 zplug "ascii-soup/zsh-url-highlighter"
 zplug "zsh-users/zsh-completions"
+zplug "zsh-users/zsh-autosuggestions"
 zplug "zsh-users/zsh-syntax-highlighting", defer:2
+
+# theme
 
 # program
 zplug "voronkovich/mysql.plugin.zsh"

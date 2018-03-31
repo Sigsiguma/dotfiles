@@ -23,7 +23,10 @@ export PATH=$HOME/.anyenv/bin:$PATH
 eval "$(anyenv init - --no-rehash)"
 
 # load common zsh aliases
-source ~/.zsh/.zsh_aliases
+source ~/.zsh/zsh_aliases.zsh
+
+# load peco functions
+source ~/.zsh/peco.zsh
 
 
 if [[ -f ~/.zshrc.local ]]; then
