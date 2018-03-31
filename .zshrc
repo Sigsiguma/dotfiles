@@ -19,6 +19,9 @@ fi
 export PATH=$HOME/.anyenv/bin:$PATH
 eval "$(anyenv init - --no-rehash)"
 
+# load zsh settings
+source ~/.zsh/.zsh_aliases
+
 
 if [[ -f ~/.zshrc.local ]]; then
     source ~/.zshrc.local

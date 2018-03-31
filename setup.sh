@@ -34,6 +34,17 @@ link_files() {
 		ln -snfv ${DOT_DIRECTORY}/${f} ${HOME}/${f}
 	done
 
+	# neovim link
+	if [ ! -e ~/.config ]; then
+		mkdir ~/.config
+	fi
+	if [ ! -e ~/.config/nvim ]; then
+		mkdir ~/.config/nvim
+	fi
+
+	ln -snfv ~/.vim ~/.config/nvim/
+	ln -snfv ~/.vimrc ~/.config/nvim/init.vim
+
 	echo "Deploy dotfiles complete!"
 }
 

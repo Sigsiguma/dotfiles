@@ -13,7 +13,7 @@
 
 [alias]
     graph = "log --graph --pretty='format:%h %Cgreen%an%Creset | %s %Cred%d%Creset'"
-    	ci = commit -m
+    ci = commit -m
 	st = status
 	df = diff
 	co = checkout
