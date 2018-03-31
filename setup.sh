@@ -1,8 +1,7 @@
 #!/bin/bash
 
-set -eu
+set -e
 OSTYPE="$(uname -s)"
-echo $OSTYPE
 DOT_DIRECTORY="${HOME}/dotfiles"
 REMOTE_URL="git@github.com:Sigsiguma/dotfiles.git"
 
@@ -57,7 +56,7 @@ initialize() {
 		exec $SHELL -l
 	fi
 
-	[ ! -d ${HOME}/.zplug ] && curl -sL zplug.sh/installer | zsh
+	[ ! -d ${HOME}/.zplug ] && curl -sL --proto-redir -all,https https://raw.githubusercontent.com/zplug/installer/master/installer.zsh| zsh
 
 	echo "Initialize complete!"
 }

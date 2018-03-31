@@ -14,8 +14,6 @@ run_brew() {
         [[ $? ]] && echo "Update Homebrew complete!"
 
         brew tap 'caskroom/cask'
-        brew tap 'homebrew/apache'
-        brew tap 'homebrew/dupes'
         brew tap 'sanemat/font'
         brew tap 'homebrew/php'
         brew tap 'greymd/tools'
@@ -36,6 +34,7 @@ run_brew() {
             'peco'
             'postgresql'
             'sqlite'
+            'tig'
             'tmux'
             'tree'
             'vim'
@@ -84,7 +83,7 @@ run_brew() {
       'firefox'
       'franz'
       'google-chrome'
-      'google-drive'
+      'iterm2'
       'karabiner-elements'
       'sequel-pro'
       'slack'
@@ -92,7 +91,6 @@ run_brew() {
       'skype'
       'trailer'
       'vagrant'
-      'virtualbox'
       'xquartz'
     )
 
