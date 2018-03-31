@@ -6,6 +6,8 @@ zplug "zsh-users/zsh-autosuggestions"
 zplug "zsh-users/zsh-syntax-highlighting", defer:2
 
 # theme
+#zplug "agnoster/agnoster-zsh-theme", as:theme
+zplug "Sigsiguma/agnoster-zsh-theme", as:theme
 
 # program
 zplug "voronkovich/mysql.plugin.zsh"

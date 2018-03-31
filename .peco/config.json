@@ -2,6 +2,7 @@
     "Prompt": "[peco]",
     "Keymap": {
         "Esc": "peco.Cancel",
+        "C-j": "peco.Cancel",
         "Enter": "peco.Finish",
         "BS": "peco.DeleteBackwardChar",
         "C-h": "peco.DeleteBackwardChar",
