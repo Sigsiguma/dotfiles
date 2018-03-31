@@ -1,9 +1,9 @@
 [core]
     excludesfile = ${HOME}/.gitignore_global
-    editor = vim
+    editor = nvim
 [user]
-    name = Sigsiguma
-    email = you8jun@gmail.com
+    name = siguma
+    email = you8jun5@gmail.com
 
 [color]
     diff = auto
