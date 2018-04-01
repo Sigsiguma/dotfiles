@@ -22,6 +22,8 @@ if [ ! -d ${DOT_DIRECTORY} ]; then
 	echo "Download dotfiles complete!"
 fi
 
+cd ${DOT_DIRECTORY}
+
 source ./lib/brew
 
 link_files() {
