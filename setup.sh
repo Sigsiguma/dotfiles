@@ -68,13 +68,6 @@ initialize() {
 
 	[ ${SHELL} != "/bin/zsh"  ] && chsh -s /bin/zsh
 
-	if [ ! -d ${HOME}/.anyenv ]; then
-		git clone https://github.com/riywo/anyenv ~/.anyenv
-		anyenv install pyenv
-		anyenv install rbenv
-		exec $SHELL -l
-	fi
-
 	[ ! -d ${HOME}/.zplug ] && curl -sL --proto-redir -all,https https://raw.githubusercontent.com/zplug/installer/master/installer.zsh| zsh
 
 	echo "Initialize complete!"
