@@ -22,9 +22,7 @@ if [ ! -d ${DOT_DIRECTORY} ]; then
 	echo "Download dotfiles complete!"
 fi
 
-cd ${DOT_DIRECTORY}
-
-source ./lib/brew
+source ${DOT_DIRECTORY}/lib/brew
 
 link_files() {
 	for f in .??*
