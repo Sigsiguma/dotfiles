@@ -52,6 +52,14 @@ initialize() {
 	case ${OSTYPE} in
 		Darwin*)
 			run_brew
+
+            if [ ! -e ~/Library/Fonts/RictyDiminished-Regular.ttf ]; then
+                wget https://github.com/mzyy94/RictyDiminished-for-Powerline/archive/3.2.4-powerline.zip
+                unzip 3.2.4-powerline.zip
+                cp -f RictyDiminished-for-Powerline-3.2.4-powerline/Ricty*.ttf ${HOME}/Library/Fonts/
+                rm -rf RictyDiminished-for-Powerline-3.2.4-powerline*
+                rm -rf 3.2.4-powerline.zip
+            fi
 			;;
 		*)
 			echo "Not compatible... sorry..."
