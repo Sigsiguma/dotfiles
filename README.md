@@ -1,7 +1,8 @@
 # dotfiles
+
 ## インストール
 
-XCode Command Line Toolsが必要です
+XCode Command Line Tools が必要です
 
 ```
 xcode-select --install
@@ -11,8 +12,8 @@ xcode-select --install
 
 ```
 # init
-bash -c "$(curl -fsSL raw.github.com/Sigsiguma/dotfiles/master/setup.sh)" init
+bash -c "$(curl -fsSL raw.github.com/Sigsiguma/dotfiles/master/setup.sh)" -- init
 
 # deploy
-bash -c "$(curl -fsSL raw.github.com/okamos/dotfiles/master/setup.sh)" deploy
+bash -c "$(curl -fsSL raw.github.com/okamos/dotfiles/master/setup.sh)" -- deploy
 ```
