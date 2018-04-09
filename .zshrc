@@ -18,10 +18,6 @@ if [[ -f ~/.zplug/init.zsh ]]; then
     zplug load
 fi
 
-# setting common environment path
-export PATH=$HOME/.anyenv/bin:$PATH
-eval "$(anyenv init - --no-rehash)"
-
 # load common zsh aliases
 source ~/.zsh/zsh_aliases.zsh
 
