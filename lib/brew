@@ -86,6 +86,7 @@ run_brew() {
       'firefox'
       'franz'
       'google-chrome'
+      'google-japanese-ime'
       'intellij-idea-ce'
       'iterm2'
       'karabiner-elements'
