@@ -1,5 +1,5 @@
 [core]
-    excludesfile = ~/.gitignore_global
+	excludesfile = ~/.gitignore_global
     editor = nvim
 [user]
     name = siguma
@@ -17,6 +17,8 @@
 	st = status
 	df = diff
 	co = checkout
+    puo = push origin
+    plo = pull origin
 	br = branch
 	delete-merged-branches = !git branch --merged | grep -v \\* | xargs -I % git branch -d %
 

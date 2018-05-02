@@ -4,6 +4,8 @@ compinit
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
 setopt prompt_subst
 
+bindkey -v
+
 if [[ -f ~/.zplug/init.zsh ]]; then
     export ZPLUG_LOADFILE=~/.zsh/zplug.zsh
     source ~/.zplug/init.zsh
