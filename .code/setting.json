@@ -1,0 +1,21 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Solarized Dark",
+    "editor.fontFamily": "Ricty Diminished",
+    "editor.fontSize": 14,
+    "editor.renderWhitespace": "boundary",
+    "editor.formatOnType": true,
+    "editor.formatOnSave": true,
+    "csharp.referencesCodeLens.enabled": false,
+    "vim.visualstar": true,
+    "vim.easymotion": true,
+    "vim.leader": "<space>",
+    "terminal.integrated.fontFamily": "Ricty Diminished Discord for Powerline",
+    "eslint.packageManager": "yarn",
+    "javascript.validate.enable": false,
+    "flow.useNPMPackagedFlow": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    },
+}
