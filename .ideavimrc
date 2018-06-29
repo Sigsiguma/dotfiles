@@ -1,2 +1,6 @@
+let mapleader="<space>"
+
 nnoremap <c-h> gT
-nnoremap <c-L> gt
+nnoremap <c-l> gt
+nnoremap <c-e> $
+nnoremap <c-s> ^

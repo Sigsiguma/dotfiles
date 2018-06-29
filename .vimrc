@@ -58,6 +58,10 @@ nnoremap <silent><C-e> :NERDTreeToggle<CR>
 nnoremap <Space>o :only<CR>
 noremap <C-j> <esc>
 noremap! <C-j> <esc>
+nnoremap <C-s> ^
+nnoremap <C-e> $
+nnoremap <C-h> gT
+nnoremap <C-l> gt
 nnoremap j gj
 nnoremap k gk
 
