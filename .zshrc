@@ -26,6 +26,9 @@ source ~/.zsh/zsh_aliases.zsh
 # load peco functions
 source ~/.zsh/peco.zsh
 
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
 
 if [[ -f ~/.zshrc.local ]]; then
     source ~/.zshrc.local

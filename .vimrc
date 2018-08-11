@@ -102,9 +102,9 @@ endif
 
 " depends on installed plugins 
 filetype plugin indent on
+let g:solarized_termcolors=256
 syntax enable
-set background=dark
-colorscheme molokai
-set t_Co=256
+colorscheme tender
+
 let g:airline_powerline_fonts = 1
-let g:airline_theme = 'murmur'
+let g:airline_theme = 'tender'
