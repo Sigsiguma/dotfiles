@@ -106,5 +106,5 @@ let g:solarized_termcolors=256
 syntax enable
 colorscheme tender
 
-let g:airline_powerline_fonts = 1
-let g:airline_theme = 'tender'
+runtime! .vim/plugins/*.vim
+
