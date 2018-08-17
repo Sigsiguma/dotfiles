@@ -28,6 +28,7 @@ run_brew() {
             'ghq'
             'gibo'
             'git'
+            'libuv'
             'mono'
             'mysql'
             'neovim'
