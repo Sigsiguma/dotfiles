@@ -93,6 +93,7 @@ run_brew() {
       'intellij-idea-ce'
       'iterm2'
       'karabiner-elements'
+      'mono-mdk'
       'sequel-pro'
       'slack'
       'skitch'
