@@ -99,3 +99,11 @@ on_ft = ['js']
 [[plugins]]
 repo = 'OmniSharp/omnisharp-vim'
 on_ft = ['cs','csi','csx']
+
+[[plugins]]
+repo = 'aklt/plantuml-syntax'
+on_ft = ['pu','uml','plantuml','md']
+
+[[plugins]]
+repo = 'weirongxu/plantuml-previewer.vim'
+on_ft = ['pu','uml','plantuml','md']

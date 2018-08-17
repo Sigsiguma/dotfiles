@@ -18,12 +18,6 @@ repo = 'vim-airline/vim-airline'
 repo = 'jacoborus/tender.vim'
 
 [[plugins]]
-repo = 'tomasr/molokai'
-
-[[plugins]]
-repo = 'vim-airline/vim-airline-themes'
-
-[[plugins]]
 repo = 'scrooloose/nerdtree'
 
 [[plugins]]
