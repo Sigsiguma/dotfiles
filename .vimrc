@@ -51,9 +51,10 @@ set wrapscan
 set hlsearch
 
 "delaytime from insert mode
-set timeout timeoutlen=100
+set timeout timeoutlen=1000
 
 "keymaps
+let mapleader = "\<Space>"
 nnoremap <silent><C-e> :NERDTreeToggle<CR>
 nnoremap <Space>o :only<CR>
 noremap <C-j> <esc>
