@@ -14,6 +14,13 @@ nnoremap [denite]o :<C-u>Denite file_old<CR>
 " カレントディレクトリの検索
 nnoremap [denite]c :<C-u>DeniteBufferDir file_rec<CR>
 
+" deniteを開いているときのキーマップ
+call denite#custom#map('_', "<C-h>", '<denite:do_action:split>')
+call denite#custom#map('insert', "<C-h>", '<denite:do_action:split>')
+call denite#custom#map('_', "<C-v>", '<denite:do_action:vsplit>')
+call denite#custom#map('insert', "<C-v>", '<denite:do_action:vsplit>')
+
+
 " deniteのプロンプトを指定
 call denite#custom#option('default', 'prompt', '>')
 
