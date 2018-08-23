@@ -5,8 +5,14 @@ repo = 'Shougo/dein.vim'
 repo = 'Shougo/denite.nvim'
 
 [[plugins]]
+repo = 'Shougo/neomru.vim'
+
+[[plugins]]
 repo = 'Shougo/vimproc'
 build = 'make'
+
+[[plugins]]
+repo = 'w0rp/ale'
 
 [[plugins]]
 repo = 'Shougo/deoplete-rct'
@@ -46,9 +52,6 @@ repo = 'tyru/open-browser.vim'
 
 [[plugins]]
 repo = 'greyblake/vim-preview'
-
-[[plugins]]
-repo = 'vim-syntastic/syntastic'
 
 [[plugins]]
 repo = 'cohama/lexima.vim'

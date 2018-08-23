@@ -13,6 +13,10 @@ nnoremap [denite]b :<C-u>Denite buffer<CR>
 nnoremap [denite]o :<C-u>Denite file_old<CR>
 " カレントディレクトリの検索
 nnoremap [denite]c :<C-u>DeniteBufferDir file_rec<CR>
+" ディレクトリの検索
+nnoremap [denite]d :<C-u>Denite directory_rec<CR>
+" 最近使ったディレクトリの検索
+nnoremap [denite]m :<C-u>Denite directory_mru<CR>
 
 " deniteを開いているときのキーマップ
 call denite#custom#map('_', "<C-h>", '<denite:do_action:split>')
