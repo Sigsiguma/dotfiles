@@ -49,18 +49,6 @@ repo = 'lervag/vimtex'
 on_ft = ['tex']
 
 [[plugins]]
-repo = 'othree/yajs.vim'
-on_ft = ['javascript', 'json']
-
-[[plugins]]
-repo = 'mtscout6/syntastic-local-eslint.vim'
-on_ft = ['javascript', 'js']
-
-[[plugins]]
-repo = 'marijnh/tern_for_vim'
-on_ft = ['javascript', 'js']
-
-[[plugins]]
 repo = 'cespare/vim-toml'
 on_ft = ['toml']
 
@@ -77,12 +65,24 @@ repo = 'mattn/emmet-vim'
 on_ft = ['html','css','php','js']
 
 [[plugins]]
-repo = 'pangloss/vim-javascript'
-on_ft = ['js']
+repo = 'mtscout6/syntastic-local-eslint.vim'
+on_ft = ['javascript', 'js']
 
 [[plugins]]
-repo = 'mxw/vim-jsx'
-on_ft = ['js']
+repo = 'marijnh/tern_for_vim'
+on_ft = ['javascript', 'js', 'jsx']
+
+[[plugins]]
+repo = 'othree/yajs.vim'
+on_ft = ['javascript', 'json', 'jsx']
+
+[[plugins]]
+repo = 'pangloss/vim-javascript'
+on_ft = ['js', 'jsx']
+
+[[plugins]]
+repo = 'maxmellon/vim-jsx-pretty'
+on_ft = ['js', 'jsx']
 
 [[plugins]]
 repo = 'STRML/JSXHint'
