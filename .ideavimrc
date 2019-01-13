@@ -1,6 +1,9 @@
-let mapleader="<space>"
+let mapleader=" "
 
 nnoremap <c-h> gT
 nnoremap <c-l> gt
-nnoremap <c-e> $
-nnoremap <c-s> ^
+nnoremap <leader>e $
+nnoremap <leader>s ^
+nnoremap <leader>g :action GotoDeclaration<cr>
+nnoremap <leader>b :action Back<cr>
+nnoremap <leader>f :action Forward<cr>
