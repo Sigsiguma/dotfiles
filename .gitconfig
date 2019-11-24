@@ -21,6 +21,8 @@
     plo = pull origin
 	br = branch
 	delete-merged-branches = !git branch --merged | grep -v \\* | xargs -I % git branch -d %
+    pr = pull-request
+    see = browse
 
 [ghq]
     root = ~/src

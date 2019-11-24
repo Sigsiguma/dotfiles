@@ -2,7 +2,9 @@
     "Prompt": "[peco]",
     "Keymap": {
         "Esc": "peco.Cancel",
-        "C-j": "peco.Cancel",
+        "C-[": "peco.Cancel",
+        "C-j": "peco.SelectDown",
+        "C-k": "peco.SelectUp",
         "Enter": "peco.Finish",
         "BS": "peco.DeleteBackwardChar",
         "C-h": "peco.DeleteBackwardChar",
@@ -11,7 +13,6 @@
         "C-f": "peco.ForwardChar",
         "C-a": "peco.BeginningOfLine",
         "C-e": "peco.EndOfLine",
-        "C-k": "peco.KillEndOfLine",
         "C-u": "peco.KillBeginningOfLine",
         "C-b": "peco.BackwardChar",
         "C-p": "peco.SelectUp",

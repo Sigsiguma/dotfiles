@@ -46,3 +46,29 @@ function peco-git-hash() {
 }
 zle -N peco-git-hash
 bindkey '^H' peco-git-hash
+
+# git pull request checkout
+function peco-git-pull-list() {
+    local res
+    res=$(git pr list | peco | awk '{print $1}' | tr -d '#')
+    if [ -n "$res" ]; then
+        BUFFER="git pr checkout ${res}"
+        zle accept-line
+    fi
+    zle clear-screen
+}
+zle -N peco-git-pull-list
+bindkey '^P' peco-git-pull-list
+
+# git pull request open browse
+function peco-git-pull-open() {
+    local res
+    res=$(git pr list | peco | awk '{print $1}' | tr -d '#')
+    if [ -n "$res" ]; then
+        BUFFER="git pr show ${res}"
+        zle accept-line
+    fi
+    zle clear-screen
+}
+zle -N peco-git-pull-open
+bindkey '^O' peco-git-pull-open

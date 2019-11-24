@@ -13,7 +13,7 @@ run_brew() {
         brew update && brew upgrade
         [[ $? ]] && echo "Update Homebrew complete!"
 
-        brew tap 'caskroom/cask'
+        brew tap 'homebrew/cask'
         brew tap 'sanemat/font'
         brew tap 'greymd/tools'
 
@@ -45,6 +45,7 @@ run_brew() {
             'yarn'
             'zlib'
             'zsh'
+            'hub'
         )
 
         local installed=`brew list`

@@ -33,6 +33,9 @@ export PATH=$GEM_HOME/ruby/2.5.0/bin:$PATH
 
 eval "$(pyenv init -)"
 
+# add hub to git command
+function git(){hub "$@"}
+
 if [[ -f ~/.zshrc.local ]]; then
     source ~/.zshrc.local
 fi
